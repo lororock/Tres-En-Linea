@@ -49,6 +49,7 @@ function App() {
     }
   };
 
+ 
   const renderSquare = (index) => {
     return (
       <button className="p-1" onClick={() => handleClick(index)}>
@@ -78,21 +79,8 @@ function App() {
     <div className="container h-100 d-flex align-items-center">
       <div className="row w-100 justify-content-center mt-5">
         <div className="col-md-8 text-center">
-          <head>
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456"
-              crossOrigin="anonymous"
-            ></script>
-
-            <ins
-              className="adsbygoogle"
-              style="display:inline-block;width:728px;height:90px"
-              data-ad-client="ca-pub-1234567890123456"
-              data-ad-slot="1234567890"
-            ></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-          </head>
+          <div className="center">
+          </div>
           <div className="status mb-3">{status}</div>
           <div className="board-row">
             {renderSquare(0)}
