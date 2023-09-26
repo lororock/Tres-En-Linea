@@ -81,9 +81,17 @@ function App() {
           <head>
             <script
               async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8153524524145795"
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456"
               crossOrigin="anonymous"
             ></script>
+
+            <ins
+              className="adsbygoogle"
+              style="display:inline-block;width:728px;height:90px"
+              data-ad-client="ca-pub-1234567890123456"
+              data-ad-slot="1234567890"
+            ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </head>
           <div className="status mb-3">{status}</div>
           <div className="board-row">
