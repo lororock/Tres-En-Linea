@@ -78,6 +78,13 @@ function App() {
     <div className="container h-100 d-flex align-items-center">
       <div className="row w-100 justify-content-center mt-5">
         <div className="col-md-8 text-center">
+          <head>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8153524524145795"
+              crossOrigin="anonymous"
+            ></script>
+          </head>
           <div className="status mb-3">{status}</div>
           <div className="board-row">
             {renderSquare(0)}
